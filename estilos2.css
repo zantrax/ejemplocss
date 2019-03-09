@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { /*aplica un estilo al cuerpo de la pagina*/
+text-align: center;
+background:#036;
+}
+#agrupar { /*define un tamaño en este identificador, asi como un ancho, y alinea el texto a la izquierda*/
+width: 960px;
+margin: 15px auto;
+text-align: left;
+}
+#cabecera { /*esta es el identificador de la cabezera -genera un color de fondo -crea un borde alrededor de la division y crea un relleno de 20px*/
+background: #20639A;
+border-bottom: 4px solid #000;
+padding: 20px;
+width:100%;
+}
+.menu { /*esta es una clase para un menu define un color asi como un relleno  */
+background: #900;
+padding: 5px 15px;
+background-color:#366; /*atributo agregado*/
+border: 4px solid #000;
+}
+#menu li { /*le da una apriencia personalizada a las listas  */
+display: inline;
+list-style: none;
+padding: 5px;
+font: bold 14px verdana, sans-serif;
+}
+#seccion {
+float: left;
+width: 660px;
+margin: 20px;
+}
+.columna {
+float: left;
+border-top: 4px solid #000;
+border-bottom: 4px solid #000;
+
+width: 220px;
+margin: 20px 0px;
+padding: 20px;
+background: #FFC;
+
+
+}
+#pie { /*esta es un identificador para una pequeña linea arriba del footer  */
+clear: both;
+text-align: center;
+padding: 20px;
+border-top: 4px solid #000;
+}
+article { /*da el formato a todos los article que se usen -color de fondo, relleno,etc  */
+background: #FFFBCC;
+border: 4px solid #999999;
+padding: 20px;
+margin-bottom: 15px;
+}
+article footer { /*seccion peronalizada para el footer */
+text-align: right;
+}
+time { /*genera un color para una fecha*/
+color: #999999;
+}
+figcaption { /*da un formato a un figcaption*/
+font: italic 14px verdana, sans-serif;
+}
+
+.botones{ /*seccion nuva para un boton*/
+	background: #033;
+	text-align:center;
+  line-height: 4;
+  padding: 0 2em;
+  margin: 1.5em;
+  color: #fff;
+}
+#barra{ /*seccion nueva crea una barra lateral */
+float: left;
+ 
+border-left: 4px solid #000;
+border-right: 1px solid #000;
+border-top: 1px solid #000;
+border-bottom: 4px solid #000;
+width: 200px;
+background: #066;
+text-align:center;
+color:#fff;
+}
+#facebook{ /*seccion nueva de red social*/
+ float: left;
+border-left: 4px solid #000;
+border-right: 1px solid #000;
+border-top: 1px solid #000;
+border-bottom: 4px solid #000;
+width: 200px;
+background:#03C;
+text-align:center;
+color:#fff;
+}
+#twitter{ /*seccion nueva de red social*/
+float:left;
+border-left: 4px solid #000;
+border-right: 1px solid #000;
+border-top: 1px solid #000;
+border-bottom: 4px solid #000;
+width: 200px;
+background:#09C;
+text-align:center;
+color:#fff;
+}
+#galeria/*seccion nueva para galeria de logos*/
+{
+	float: left;
+}
+/*div {
+width: 100px;
+margin: 20px;
+padding: 10px;
+border: 1px solid #000000;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}*/
+
